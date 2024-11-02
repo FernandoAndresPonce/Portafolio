@@ -705,8 +705,7 @@ form .submit-btn:active{
     transform: scale(0.9);
 }
 
-
-.footer{
+.footer {
     padding: 15px 14%;
     background: transparent;
     color: var(--text-color);
@@ -716,23 +715,45 @@ form .submit-btn:active{
     gap: 2rem;
 }
 
-.copyright p{
+.greeting {
+    display: flex;
+    flex-direction: column; 
+}
+
+.greeting p {
     font-size: 14px;
     font-weight: 400;
     color: var(--ann-color);
+    margin-bottom: 10px; 
 }
 
-.scroll-top i{
+.portfolio-code {
+    display: flex;
+    align-items: center; 
+}
+.portfolio-code a {
+    margin-left: 5px; 
+}
+
+.scroll-top i {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     height: 43px;
     width: 43px;
-    background: -webkit-linear-gradient(135deg, rgb(129, 186, 181) 0%, var(--main-color)100%);
+    background: -webkit-linear-gradient(135deg, rgb(129, 186, 181) 0%, var(--main-color) 100%);
     color: var(--bg-color);
     border-radius: 1.7rem;
     font-size: 18px;
 }
 
+.github-icon {
+    color: #111;
+    background-image: linear-gradient(150deg, rgb(38, 67, 67), rgb(35, 133, 133), rgb(129, 186, 181));
+    transition: color 0.3s; /* Efecto de transición suave */
+    border-radius: 100%;
+}
 
-
+.github-icon:hover {
+    background: -webkit-linear-gradient(135deg, rgb(129, 186, 181) 0%, var(--main-color) 100%);
+}
