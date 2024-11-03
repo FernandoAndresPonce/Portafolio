@@ -491,7 +491,7 @@ header.sticky{
 }
 
 .row{
-    background:linear-gradient(150deg, rgb(38, 67, 67), rgb(35, 133, 133), rgb(129, 186, 181));
+    background:linear-gradient(150deg, rgb(1, 1, 1), rgb(1, 1, 1), rgb(129, 186, 181));
     border-radius: 1.7rem;
     padding: 0px 0px 5px 0px;
     transition: all .7s ease;
